@@ -1,0 +1,19 @@
+{
+  "ContactInfo": {
+    "title": "Say Hello!",
+    "userID": "user_hcZvYo5zx8DHQEzq7xh9g",
+    "serviceID": "service_soxba2i",
+    "templateID": "template_sug3o0u"
+  },
+  "buttons": {
+    "login": "Login",
+    "add": "Create",
+    "update": "Update",
+    "wait": "Wait...",
+    "create": "Create",
+    "back": "Back",
+    "upload": "Upload",
+    "select": "Select",
+    "submit": "Submit"
+  }
+}

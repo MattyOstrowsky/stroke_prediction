@@ -15,5 +15,12 @@
     "upload": "Upload",
     "select": "Select",
     "submit": "Submit"
+  },
+  "links": {
+    "home": "https://stark-gorge-14911.herokuapp.com/",
+    "strokemodel": "https://stark-gorge-14911.herokuapp.com/strokemodel",
+    "projects": "https://stark-gorge-14911.herokuapp.com/projects"
+
+
   }
 }

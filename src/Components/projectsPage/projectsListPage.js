@@ -20,10 +20,13 @@ theme.typography.subtitle1 = {
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
+    margin:'auto',
+    width: "80vw",
+    marginBottom: "2rem",
+    marginTop: "8rem",
     "& > *": {
-      paddingBottom: "0rem",
-      marginBottom: "10vw",
-      marginTop: "10vw",
+      marginBottom: "2rem",
+      marginTop: "2rem",
     },
   },
 }));
@@ -46,7 +49,6 @@ export default function ProjectListPage() {
       justifyContent="center"
       alignItems="center"
       className={classes.root}
-      spacing={2}
     >
       <ThemeProvider theme={theme}>
         {projectList.map((projectList) => (

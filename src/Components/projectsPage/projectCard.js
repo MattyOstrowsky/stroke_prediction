@@ -12,15 +12,22 @@ import GitHubIcon from "@material-ui/icons/GitHub";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 345,
-    borderRadius: "25px",
-    margin: "2rem",
+    borderRadius: "15px",
+    margin: "1rem",
     width: "20rem",
+    height: '',
   },
   media: {
-    height: 100,
+    height: 70,
     margin: "1rem",
-    padding: "6rem",
+    padding: "5rem",
   },
+  textmedia: {
+    height: 100,
+  },
+  area: {
+    height: '450px',
+  }
 }));
 
 export default function ProjectCard(props) {
@@ -30,7 +37,7 @@ export default function ProjectCard(props) {
   return (
     <React.Fragment>
       <Card key={id} className={classes.root}>
-        <CardActionArea>
+        <CardActionArea className={classes.area}>
           <CardMedia
             className={classes.media}
             image={image_url}
@@ -40,7 +47,7 @@ export default function ProjectCard(props) {
             <Typography gutterBottom variant="h5" component="h2">
               {project_name}
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
+            <Typography className={classes.textmedia} variant="body2" color="textSecondary" component="p">
               {description}
             </Typography>
           </CardContent>

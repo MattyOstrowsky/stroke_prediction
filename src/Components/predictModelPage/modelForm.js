@@ -81,7 +81,7 @@ export default function ModelForm() {
         e.preventDefault();
         
         if (validate())
-            axios.post('http://127.0.0.1:8000/strokemodel', values)
+            axios.post(`${process.env.REACT_APP_API_URL}/strokemodel`, values)
                 .then(res => {
                     setModelRes(res.data)
                     handleOpen();
